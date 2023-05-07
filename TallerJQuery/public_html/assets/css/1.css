@@ -1,0 +1,95 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28-feb-2019, 11:43:36
+    Author     : Ivan
+*/
+
+article {
+    clear: both;
+    transform: translate(0%, 125%);
+}
+
+
+.parallax { 
+
+    /* The image used */
+    background-image: url("../img/estrella.jpg");
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    clear: both;
+}
+
+.titulo-paralax{
+    position: relative;
+    float: left;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, 600%);
+    color:white;
+    font-size: 3em;
+    border-left: 0px;
+
+}
+
+.articulo{
+    
+    padding: 30px;
+    background-color: #FFFFFF;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 5px;
+    height:  400px;
+    width: 70%;    
+    margin: auto;
+    margin-right: 13%;
+    margin-bottom: 50px;
+    float: right;
+
+}
+
+#txt1 {
+    width:69%;
+    float: right;
+}
+
+#txt2 {
+    clear: both;
+}
+
+#id1 {
+    clear: both;
+}
+
+#id3 {
+    width: 56%;
+    float: right;
+}
+
+.im1 {
+    float: left;
+    width: 30%;
+    transform: translate(-72%, -25%);
+}
+
+.im2 {
+    float: left;
+    width: 10%;
+}
+
+.gradiente {
+    margin-top: 63em;
+    background: linear-gradient(to right,#0099cc,#6633ff);
+    height: 12em;  
+    width: 90%;  
+    clear: both;
+    
+}
